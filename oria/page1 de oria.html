@@ -1,26 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kakoukakou</title>
 
-       <style>
-          img{
-                width: 50%;    color:rgb(255, 147, 241)
-          }
-        </style>
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        img {
+            width: 50%;
+            color: rgb(255, 147, 241)
+        }
+
+
+        .horizontal-hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: pink;
+            flex-grow: 1;
+            font-size: 60px;
+
+
+        }
+
+
+        .container {
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        img {
+            width: 300px;
+        }
+
+        h1 {
+            text-align: center;
+            color: pink;
+            font-weight: bold;
+            font-size: 80px;
+            font-family: 'Times New Roman';
+        }
+
+        .horizontal-list {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+
+            
+
+        }
+
+    </style>
 </head>
+
 <body>
-    
-    <div>
-    <img src="https://media.tenor.com/sLFiNKWiTJsAAAAM/kakou-kakou.gif" alt="" 
-    class="horizontal hero"/>
-     KAKOU KAKOU c est une madame qui crée des recette exotique et qui fait des short ou vidéo
-     </div>
-  
+
+
+
+
+    <h1>
+        kakou kakou
+    </h1>
+
+
+    <div class="container">
+
+        <div class="horizontal-hero">
+            <img src="https://media.tenor.com/sLFiNKWiTJsAAAAM/kakou-kakou.gif" alt="" />
+            KAKOU KAKOU c est une madame qui crée des recette exotique et qui fait des short ou vidéo
+        </div>
+
+
+    </div>
+    <div class="horizontal-list">
+        <div>
+            <img src="https://floptok.fandom.com/wiki/Kakou_Kakou" alt="">
+            <p>kakou kakou en nature</p>
+        </div>
+
+        <div>
+            <img src="https://www.tiktok.com/@floflofrdl/video/7408669137230105888" alt="">
+            <p>kakou kakou qui mange</p>
+        </div>
+
+        <div>
+            <img src="https://media.tenor.com/uvkcRwLcwpUAAAAM/kakou-kakou.gif" alt="">
+            <p>kakou kakou bonbon</p>
+        </div>
+
+
+    </div>
+
+
+
 
 
 
 </body>
+
 </html>
