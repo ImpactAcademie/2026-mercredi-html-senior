@@ -1,0 +1,55 @@
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        img {
+            width: 50%;
+            color: rgb(255, 147, 241)
+        }
+
+
+        .horizontal-hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: pink;
+            flex-grow: 1;
+            font-size: 60px;
+
+
+        }
+
+
+        .container {
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        img {
+            width: 200px;
+            height: 180px;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-size: 30px;
+            font-family: 'Times New Roman';
+            
+        
+        }
+
+        .horizontal-list {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+
+
+
+        }
