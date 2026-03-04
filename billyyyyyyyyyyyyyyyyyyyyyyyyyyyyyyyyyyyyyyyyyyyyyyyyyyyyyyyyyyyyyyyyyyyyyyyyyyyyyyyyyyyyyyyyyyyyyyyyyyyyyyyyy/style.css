@@ -1,0 +1,9 @@
+        .horizontal-hero {
+            display: flex;
+            align-items: center;
+        }
+
+        h2 {
+            text-align: center;
+            flex-grow: 1;
+        }
