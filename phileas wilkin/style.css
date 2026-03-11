@@ -1,0 +1,22 @@
+ .unchained {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+        }
+
+
+        .unchained {
+
+            background-color: black;
+            color: rgb(19, 236, 11);
+            height: 400px;
+        }
+
+        .image1{
+            height: 100%;
+        }
+
+
+        
+       
